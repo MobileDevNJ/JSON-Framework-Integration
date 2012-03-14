@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5DF9F4A1510D7DF000B27DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5DF9F491510D7DF000B27DB /* UIKit.framework */; };
+		B5DF9F4C1510D7DF000B27DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5DF9F4B1510D7DF000B27DB /* Foundation.framework */; };
+		B5DF9F4E1510D7DF000B27DB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5DF9F4D1510D7DF000B27DB /* CoreGraphics.framework */; };
+		B5DF9F541510D7DF000B27DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5DF9F521510D7DF000B27DB /* InfoPlist.strings */; };
+		B5DF9F561510D7DF000B27DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DF9F551510D7DF000B27DB /* main.m */; };
+		B5DF9F5A1510D7DF000B27DB /* MADNJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DF9F591510D7DF000B27DB /* MADNJAppDelegate.m */; };
+		B5DF9F5D1510D7DF000B27DB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5DF9F5B1510D7DF000B27DB /* MainStoryboard.storyboard */; };
+		B5DF9F601510D7DF000B27DB /* MADNJMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DF9F5F1510D7DF000B27DB /* MADNJMasterViewController.m */; };
+		B5DF9F631510D7DF000B27DB /* MADNJDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DF9F621510D7DF000B27DB /* MADNJDetailViewController.m */; };
+		B5DF9F6B1510D7DF000B27DB /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5DF9F6A1510D7DF000B27DB /* SenTestingKit.framework */; };
+		B5DF9F6C1510D7DF000B27DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5DF9F491510D7DF000B27DB /* UIKit.framework */; };
+		B5DF9F6D1510D7DF000B27DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5DF9F4B1510D7DF000B27DB /* Foundation.framework */; };
+		B5DF9F751510D7DF000B27DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5DF9F731510D7DF000B27DB /* InfoPlist.strings */; };
+		B5DF9F781510D7DF000B27DB /* mobiledevnj_jsonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DF9F771510D7DF000B27DB /* mobiledevnj_jsonTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5DF9F6E1510D7DF000B27DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5DF9F3C1510D7DF000B27DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5DF9F441510D7DF000B27DB;
+			remoteInfo = mobiledevnj_json;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B5DF9F451510D7DF000B27DB /* mobiledevnj_json.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mobiledevnj_json.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5DF9F491510D7DF000B27DB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B5DF9F4B1510D7DF000B27DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B5DF9F4D1510D7DF000B27DB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B5DF9F511510D7DF000B27DB /* mobiledevnj_json-Info.plist */ = {isa = PBXFileReference; path = "mobiledevnj_json-Info.plist"; sourceTree = "<group>"; };
+		B5DF9F531510D7DF000B27DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B5DF9F551510D7DF000B27DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B5DF9F571510D7DF000B27DB /* mobiledevnj_json-Prefix.pch */ = {isa = PBXFileReference; path = "mobiledevnj_json-Prefix.pch"; sourceTree = "<group>"; };
+		B5DF9F581510D7DF000B27DB /* MADNJAppDelegate.h */ = {isa = PBXFileReference; path = MADNJAppDelegate.h; sourceTree = "<group>"; };
+		B5DF9F591510D7DF000B27DB /* MADNJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADNJAppDelegate.m; sourceTree = "<group>"; };
+		B5DF9F5C1510D7DF000B27DB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B5DF9F5E1510D7DF000B27DB /* MADNJMasterViewController.h */ = {isa = PBXFileReference; path = MADNJMasterViewController.h; sourceTree = "<group>"; };
+		B5DF9F5F1510D7DF000B27DB /* MADNJMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADNJMasterViewController.m; sourceTree = "<group>"; };
+		B5DF9F611510D7DF000B27DB /* MADNJDetailViewController.h */ = {isa = PBXFileReference; path = MADNJDetailViewController.h; sourceTree = "<group>"; };
+		B5DF9F621510D7DF000B27DB /* MADNJDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADNJDetailViewController.m; sourceTree = "<group>"; };
+		B5DF9F691510D7DF000B27DB /* mobiledevnj_jsonTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mobiledevnj_jsonTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5DF9F6A1510D7DF000B27DB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B5DF9F721510D7DF000B27DB /* mobiledevnj_jsonTests-Info.plist */ = {isa = PBXFileReference; path = "mobiledevnj_jsonTests-Info.plist"; sourceTree = "<group>"; };
+		B5DF9F741510D7DF000B27DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B5DF9F761510D7DF000B27DB /* mobiledevnj_jsonTests.h */ = {isa = PBXFileReference; path = mobiledevnj_jsonTests.h; sourceTree = "<group>"; };
+		B5DF9F771510D7DF000B27DB /* mobiledevnj_jsonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mobiledevnj_jsonTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5DF9F421510D7DF000B27DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5DF9F4A1510D7DF000B27DB /* UIKit.framework in Frameworks */,
+				B5DF9F4C1510D7DF000B27DB /* Foundation.framework in Frameworks */,
+				B5DF9F4E1510D7DF000B27DB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5DF9F651510D7DF000B27DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5DF9F6B1510D7DF000B27DB /* SenTestingKit.framework in Frameworks */,
+				B5DF9F6C1510D7DF000B27DB /* UIKit.framework in Frameworks */,
+				B5DF9F6D1510D7DF000B27DB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5DF9F3A1510D7DF000B27DB = {
+			isa = PBXGroup;
+			children = (
+				B5DF9F4F1510D7DF000B27DB /* mobiledevnj_json */,
+				B5DF9F701510D7DF000B27DB /* mobiledevnj_jsonTests */,
+				B5DF9F481510D7DF000B27DB /* Frameworks */,
+				B5DF9F461510D7DF000B27DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5DF9F461510D7DF000B27DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5DF9F451510D7DF000B27DB /* mobiledevnj_json.app */,
+				B5DF9F691510D7DF000B27DB /* mobiledevnj_jsonTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5DF9F481510D7DF000B27DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5DF9F491510D7DF000B27DB /* UIKit.framework */,
+				B5DF9F4B1510D7DF000B27DB /* Foundation.framework */,
+				B5DF9F4D1510D7DF000B27DB /* CoreGraphics.framework */,
+				B5DF9F6A1510D7DF000B27DB /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5DF9F4F1510D7DF000B27DB /* mobiledevnj_json */ = {
+			isa = PBXGroup;
+			children = (
+				B5DF9F581510D7DF000B27DB /* MADNJAppDelegate.h */,
+				B5DF9F591510D7DF000B27DB /* MADNJAppDelegate.m */,
+				B5DF9F5B1510D7DF000B27DB /* MainStoryboard.storyboard */,
+				B5DF9F5E1510D7DF000B27DB /* MADNJMasterViewController.h */,
+				B5DF9F5F1510D7DF000B27DB /* MADNJMasterViewController.m */,
+				B5DF9F611510D7DF000B27DB /* MADNJDetailViewController.h */,
+				B5DF9F621510D7DF000B27DB /* MADNJDetailViewController.m */,
+				B5DF9F501510D7DF000B27DB /* Supporting Files */,
+			);
+			path = mobiledevnj_json;
+			sourceTree = "<group>";
+		};
+		B5DF9F501510D7DF000B27DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5DF9F511510D7DF000B27DB /* mobiledevnj_json-Info.plist */,
+				B5DF9F521510D7DF000B27DB /* InfoPlist.strings */,
+				B5DF9F551510D7DF000B27DB /* main.m */,
+				B5DF9F571510D7DF000B27DB /* mobiledevnj_json-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5DF9F701510D7DF000B27DB /* mobiledevnj_jsonTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5DF9F761510D7DF000B27DB /* mobiledevnj_jsonTests.h */,
+				B5DF9F771510D7DF000B27DB /* mobiledevnj_jsonTests.m */,
+				B5DF9F711510D7DF000B27DB /* Supporting Files */,
+			);
+			path = mobiledevnj_jsonTests;
+			sourceTree = "<group>";
+		};
+		B5DF9F711510D7DF000B27DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5DF9F721510D7DF000B27DB /* mobiledevnj_jsonTests-Info.plist */,
+				B5DF9F731510D7DF000B27DB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5DF9F441510D7DF000B27DB /* mobiledevnj_json */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5DF9F7B1510D7DF000B27DB /* Build configuration list for PBXNativeTarget "mobiledevnj_json" */;
+			buildPhases = (
+				B5DF9F411510D7DF000B27DB /* Sources */,
+				B5DF9F421510D7DF000B27DB /* Frameworks */,
+				B5DF9F431510D7DF000B27DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mobiledevnj_json;
+			productName = mobiledevnj_json;
+			productReference = B5DF9F451510D7DF000B27DB /* mobiledevnj_json.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5DF9F681510D7DF000B27DB /* mobiledevnj_jsonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5DF9F7E1510D7DF000B27DB /* Build configuration list for PBXNativeTarget "mobiledevnj_jsonTests" */;
+			buildPhases = (
+				B5DF9F641510D7DF000B27DB /* Sources */,
+				B5DF9F651510D7DF000B27DB /* Frameworks */,
+				B5DF9F661510D7DF000B27DB /* Resources */,
+				B5DF9F671510D7DF000B27DB /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5DF9F6F1510D7DF000B27DB /* PBXTargetDependency */,
+			);
+			name = mobiledevnj_jsonTests;
+			productName = mobiledevnj_jsonTests;
+			productReference = B5DF9F691510D7DF000B27DB /* mobiledevnj_jsonTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5DF9F3C1510D7DF000B27DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MADNJ;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Kaliware, LLC";
+			};
+			buildConfigurationList = B5DF9F3F1510D7DF000B27DB /* Build configuration list for PBXProject "mobiledevnj_json" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B5DF9F3A1510D7DF000B27DB;
+			productRefGroup = B5DF9F461510D7DF000B27DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5DF9F441510D7DF000B27DB /* mobiledevnj_json */,
+				B5DF9F681510D7DF000B27DB /* mobiledevnj_jsonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5DF9F431510D7DF000B27DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5DF9F541510D7DF000B27DB /* InfoPlist.strings in Resources */,
+				B5DF9F5D1510D7DF000B27DB /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5DF9F661510D7DF000B27DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5DF9F751510D7DF000B27DB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B5DF9F671510D7DF000B27DB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5DF9F411510D7DF000B27DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5DF9F561510D7DF000B27DB /* main.m in Sources */,
+				B5DF9F5A1510D7DF000B27DB /* MADNJAppDelegate.m in Sources */,
+				B5DF9F601510D7DF000B27DB /* MADNJMasterViewController.m in Sources */,
+				B5DF9F631510D7DF000B27DB /* MADNJDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5DF9F641510D7DF000B27DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5DF9F781510D7DF000B27DB /* mobiledevnj_jsonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5DF9F6F1510D7DF000B27DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5DF9F441510D7DF000B27DB /* mobiledevnj_json */;
+			targetProxy = B5DF9F6E1510D7DF000B27DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B5DF9F521510D7DF000B27DB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5DF9F531510D7DF000B27DB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B5DF9F5B1510D7DF000B27DB /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5DF9F5C1510D7DF000B27DB /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		B5DF9F731510D7DF000B27DB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5DF9F741510D7DF000B27DB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5DF9F791510D7DF000B27DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B5DF9F7A1510D7DF000B27DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5DF9F7C1510D7DF000B27DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mobiledevnj_json/mobiledevnj_json-Prefix.pch";
+				INFOPLIST_FILE = "mobiledevnj_json/mobiledevnj_json-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B5DF9F7D1510D7DF000B27DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mobiledevnj_json/mobiledevnj_json-Prefix.pch";
+				INFOPLIST_FILE = "mobiledevnj_json/mobiledevnj_json-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B5DF9F7F1510D7DF000B27DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/mobiledevnj_json.app/mobiledevnj_json";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mobiledevnj_json/mobiledevnj_json-Prefix.pch";
+				INFOPLIST_FILE = "mobiledevnj_jsonTests/mobiledevnj_jsonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B5DF9F801510D7DF000B27DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/mobiledevnj_json.app/mobiledevnj_json";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mobiledevnj_json/mobiledevnj_json-Prefix.pch";
+				INFOPLIST_FILE = "mobiledevnj_jsonTests/mobiledevnj_jsonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5DF9F3F1510D7DF000B27DB /* Build configuration list for PBXProject "mobiledevnj_json" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5DF9F791510D7DF000B27DB /* Debug */,
+				B5DF9F7A1510D7DF000B27DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5DF9F7B1510D7DF000B27DB /* Build configuration list for PBXNativeTarget "mobiledevnj_json" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5DF9F7C1510D7DF000B27DB /* Debug */,
+				B5DF9F7D1510D7DF000B27DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B5DF9F7E1510D7DF000B27DB /* Build configuration list for PBXNativeTarget "mobiledevnj_jsonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5DF9F7F1510D7DF000B27DB /* Debug */,
+				B5DF9F801510D7DF000B27DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5DF9F3C1510D7DF000B27DB /* Project object */;
+}
